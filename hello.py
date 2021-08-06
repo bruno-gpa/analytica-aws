@@ -7,7 +7,7 @@ name = os.environ.get('NAME')
 app = Flask(__name__)
 
 if name == None or len(name) == 0:
-	name = 'world'
+	name = 'world 2'
 
 MESSAGE = f'Hello, {name}!'
 print(f'Message: {MESSAGE}')
