@@ -3,6 +3,12 @@
 
 name: Python application
 
+env:
+  AZURE_WEBAPP_NAME: analytica-azure
+  WORKING_DIRECTORY: '.'
+  PYTHON_VERSION: 3.7
+  STARTUP_COMMAND: "python hello.py"
+
 on:
   push:
     branches:
